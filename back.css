@@ -50,3 +50,13 @@
             left: 21px;
             color: rgba(0, 0, 0, 0.392);
         }
+        .navbar i{
+            font-size: 24px;
+            cursor: pointer;
+            transition: 0.3s;
+            color: #824C59;
+        }
+        .navbar i:hover{
+            color:black;
+            transform: scale(1.2);
+        }
