@@ -4,7 +4,7 @@
             align-items: center;
             padding: 0 40px;
             height: 70px;
-            background-color: greenyellow;
+            background-color: rgb(210, 215, 201);
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  .navbar-link{
@@ -48,7 +48,7 @@
             position: absolute;
             top: 11%;
             left: 21px;
-            color: rgba(0, 0, 0, 0.392);
+            color: rgba(48, 137, 67, 0.392);
         }
         .navbar i{
             font-size: 24px;
