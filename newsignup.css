@@ -15,4 +15,34 @@
             top: 11%;
             left: 21px;
             color: rgba(48, 137, 67, 0.392);
+            display: flex;
+            text-align: center;
+            justify-content: center;
         }
+.navbar{
+           display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 70px;
+            background-color: rgb(210, 215, 201);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+            color: #824C59;
+            cursor: pointer;
+            transition: 0.3s;
+        }   
+.container p{
+            font-weight: 500;
+            font-size: 50px;
+
+        } 
+        .navbar-link{
+            display: flex;
+            gap: 30px;
+        }
+.header:hover{
+            color: black;
+            transform: scale(1.2);
+        }    
