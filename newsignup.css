@@ -55,4 +55,18 @@
         .navbar i:hover{
             color:black;
             transform: scale(1.2);
-        }   
+        }
+.bttn{
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.bttn:hover{
+    background-color: green;
+    color: black;
+}           
