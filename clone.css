@@ -29,6 +29,10 @@ background: #ffffff;
     border: 1px solid #ccd0d5;
     transition: border-color 0.2s;
 }
+.inputgroup input:focus{
+    border-color: #1877f2;
+    box-shadow: 2px #e7f3ff;
+}
 .btn {
     display: block;
     width: 100%;
@@ -65,4 +69,23 @@ background: #ffffff;
     margin-bottom: 20px;
     font-weight: 500;
 
+}
+.btncreate {
+    background-color: transparent;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+    padding: 12px 32px;
+}
+
+.btncreate:hover {
+    background-color: #f5f6f7;
+}
+.forgetlink:hover{
+    text-decoration: underline;
+}
+.btnlogin:hover{
+    background-color: #166fe5;
 }
