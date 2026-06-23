@@ -74,16 +74,18 @@ background: #ffffff;
 }
 .btncreate {
     background-color: transparent;
-    color: #1c1e21;
-    border: 1px solid #ccd0d5;
+    color: #1877f2;
+    border: 1px solid #1877f2;
     font-size: 1rem;
     font-weight: 600;
-    width: auto;
+    width: 90%;
     padding: 12px 32px;
+    margin-top: 40px;
 }
 
 .btncreate:hover {
     background-color: #f5f6f7;
+    text-decoration: underline;
 }
 .forgetlink:hover{
     text-decoration: underline;
@@ -164,4 +166,10 @@ background: #ffffff;
     border-left: 1px solid #e0e0e0; /* The clean divider line from the image */
     padding-left: 40px;
     position: relative;
+}
+.meta-footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #8a8d91;
+    text-align: center;
 }
