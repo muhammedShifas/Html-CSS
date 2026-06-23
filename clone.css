@@ -1,0 +1,68 @@
+body{
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.loginbox{
+background: #ffffff;
+    border-radius: 8px;
+    box-shadow: #1c1e21;
+    padding: 24px 0;
+    width: 100%;
+    max-width: 450px;
+}
+.formtitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1c1e21;
+
+}
+.inputgroup input{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccd0d5;
+    transition: border-color 0.2s;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btnlogim{
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+}
+.separator{
+    border: 0;
+    border-top: 1px solid white;
+
+}
+.createcontainer{
+    display: flex;
+    justify-content: center;
+
+}
+.forgetlink{
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    font-size: 0.95rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
