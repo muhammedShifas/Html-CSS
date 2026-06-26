@@ -11,7 +11,9 @@ body{
     position: relative;
 
 }
-
+.active{
+    
+}
 .container1{
     width: 350px;
     height: 550px;
