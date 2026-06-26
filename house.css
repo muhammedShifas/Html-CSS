@@ -1,27 +1,112 @@
 body{
     background-color: #e5e7e9;
+    display: flex;
+   
 }
+.container{
+    height: 790px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
 
+}
+.bot1{
+    width: 350px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #FB9725;
+    position: absolute;
+    left: 320px;
+    top: 110px;
+}
+.bot2{
+    width: 350px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #4CC69F;
+    position: absolute;
+    right: 320px;
+    top: 110px;
+}
+.home{
+    width: 350px;
+    height: 290px;
+    position: relative;
+    background-color: transparent;
+    
+    border-radius: 12px;
+    position: relative;
+  
+
+}
 .home img{
     width: 330px;
     height: 280px;
     border-radius: 12px;
-    margin-top: 10px;
     margin-left: 10px;
-    position: relative;
+    margin-top: 10px;
+    
 
+}
+
+.circle2{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.circle3{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5px;
+}
+.position{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+    
 }
 .active{
+    position: absolute;
+    height: 26px;
+    width: 84px;
+   top: 18px;
+   left: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+}
+.font3{
+    margin: 0;
+}
+.circle{
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background-color: green;
+    display: flex;
+    
     
 }
-.container1{
-    width: 350px;
-    height: 550px;
-    background-color: white;
-    
-    border-radius: 12px;
 
-}
 .maindetails{
     width: 120px;
     height: 190px;
@@ -100,4 +185,95 @@ margin-left: 10px;
     padding: 0;
     margin-left: 15px;
     
+}
+.container2{
+    width: 350px;
+    height: 490px;
+    background-color: white;
+    position: absolute;
+    border-radius: 12px;
+    top: 30px;
+    right: 320px;
+    top: 160px;
+
+}
+.container1{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    border-radius: 12px;
+    left: 320px;
+    bottom: 80px;
+
+}
+.active2{
+    position: absolute;
+    height: 26px;
+    width: 84px;
+   top: 18px;
+   left: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+    .circle4{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5px;
+}
+.circle5{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.maindetails1{
+
+}
+.details1{
+
+}
+.font9{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.font10{
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+
+}
+.font11{
+    font-size: 15;
+    color: #666;
+    margin-bottom: 5px;
+
+}
+.font12{
+    font-size: 22px;
+    color: #359F94;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+
 }
