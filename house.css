@@ -3,6 +3,7 @@ body{
     display: flex;
    
 }
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .container{
     height: 790px;
     width: 100%;
@@ -10,6 +11,9 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    p{
+        font-family: "Roboto", sans-serif;
+    }
 
 }
 .bot1{
@@ -111,7 +115,7 @@ body{
     width: 120px;
     height: 190px;
     p{
-        font-family: Poppins;
+        font-family: "Roboto", sans-serif;
         font-size: 14px;
         font-weight: 550;
         gap: 3px;
@@ -232,7 +236,6 @@ margin-left: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     position: relative;
