@@ -1,0 +1,147 @@
+ body{
+    background-color: white;
+    
+ }
+ *{
+    font-family: "Google Sans", sans-serif;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ .container{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    p{
+        font-family: "Google Sans", sans-serif;
+    }
+
+}
+.container1{
+    width: 480px;
+    height: 580px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.heading{
+    position: absolute;
+    left: 70px;
+    top: 120px;
+}
+.gateway{
+    position: absolute;
+    left: 100px;
+    top: 170px;
+}
+.inputbox{
+    position: absolute;
+    left: 50px;
+    top: 245px;
+    input{
+        height: 20px;
+        width: 360px;
+        border-radius: 5px;
+        border: 1px solid #D4D4D4;
+        padding: 10px;
+    }
+    
+}
+.inputbox:hover input{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.button1{
+    position: absolute;
+    button{
+        height: 40px;
+        width: 380px;
+        background: linear-gradient(45deg,#8D58FE,#17DEDC);
+        border: #31B0C2;
+        border-radius: 5px;
+        color: white;
+    }
+    left: 50px;
+    top: 320px;
+}
+.button1:hover button{
+    cursor: pointer;
+    border: 1px solid #31B0C2;
+}
+.para{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    position: absolute;
+    bottom: 160px;
+    left: 40px;
+
+}
+.continue{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    position: absolute;
+    bottom: 130px;
+    left: 50px;
+    color: #b5b2b2;
+    gap: 10px;
+}
+.continue hr{
+        flex: 1;
+        border: none;
+        height: 1px;
+        background-color: #ddd;
+}
+.google{
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       bottom: 70px;
+       left: 45px;
+    
+    
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        width: 390px;
+        gap: 10px;
+        border-radius: 5px;
+        border: 1px solid #D4D4D4;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    }
+} 
+.google:hover button{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.image1{
+    position: absolute;
+    top: 30px;
+    left: 190px;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 50px;
+    p{
+        margin: 0;
+        font-size: 13px;
+        color: #b5b2b2;
+    }
+}
