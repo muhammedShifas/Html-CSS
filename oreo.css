@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans",sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container1{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+.container{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    
+    width: 580px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    top: 0;
+    margin-top: 10px;
+    padding-left: 30px;
+    img{
+        height: 30px;
+        width: 200px;
+    }
+}
+.mode{
+    height: 35px;
+    width: 140px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 830px;
+
+}
+.day{
+    height: 35px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #186DF3;
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}
+.night{
+    height: 35px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    img{
+        height: 30px;
+        width: 30px;
+    }
+    
+}
+.arb{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    top: 22px;
+    right: 380px;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 35px;
+        width: 35px;
+    }
+}
+.price{
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    top: 18px;
+    right: 185px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    img{
+        height: 40px;
+        width: 30px;
+        padding-left: 0;
+    }
+}
+.buy{
+    width: 40px;
+    height: 25px;
+    background-color: #186DF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.connect{
+    width: 120px;
+    height: 45px;
+    background-color: #186DF3;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.para{
+    width: 600px;
+    height: 280px;
+    background-color: transparent;
+    position: absolute;
+    top: 300px;
+    left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1{
+        font-size :45px;
+        color: white;
+    }
+    h4{
+        color: white;
+    }
+}
+.para2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h5{
+        color: white;
+    }
+}
+.trade{
+    position: absolute;
+    top: 575px;
+    left: 160px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.hot{
+    position: absolute;
+    top: 800px;
+    left: 160px;
+}
+.bar{
+    height: 110px;
+    width: 1070px;
+    background-color: #040B17;
+    position: absolute;
+    top: 900px;
+    left: 160px;
+    border-radius: 5px;
+    border: .1px solid rgb(39, 39, 39);
+}
+.bar1{
+    height: 110px;
+    width: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.one{
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
